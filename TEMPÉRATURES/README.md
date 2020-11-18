@@ -18,5 +18,6 @@ Ligne 1 : Le nombre N de températures à analyser.
 
 Ligne 2 : Une chaine de caractères contenant les N températures exprimées sous la forme de nombres entiers allant de -273 à 5526
 
-####Sortie
+###### Sortie
+
 Affichez 0 (zéro) si aucune température n'est fournie. Sinon, affichez la température la plus proche de 0
