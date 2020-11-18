@@ -21,36 +21,12 @@ Thor évolue sur une carte de 40 cases de large et 18 cases de hauteur. Notez qu
 
 Chaque déplacement fait bouger Thor de 1 case dans la direction choisie.
 
-![Screenshot](./img/winLose.png)
+![Screenshot](./img/winlose.png)
 
 ## Note
 
 N'oubliez pas d'exécuter les tests depuis la fenêtre "Jeu de tests".
 **Attention** : les tests fournis et les validateurs utilisés pour le calcul du score sont légèrement différents pour éviter les solutions codées en dur
 
-### Entrées de jeu
+![Screenshot](./img/init.png)
 
-Le programme doit d'abord lire les données d'initialisation depuis l'entrée standard, puis, dans une boucle infinie fournir sur la sortie standard les instructions de mouvement de Thor.
-
-##
-
-#### Entrées d'initialisation
-
-
-
-
-
-
-
-
-Ligne 1 : Le nombre N de températures à analyser.
-
-Ligne 2 : Une chaine de caractères contenant les N températures exprimées sous la forme de nombres entiers allant de -273 à 5526
-
-#### Sortie
-
-Affichez 0 (zéro) si aucune température n'est fournie. Sinon, affichez la température la plus proche de 0
-
-#### Contraintes
-
-0 ≤ N < 10000
