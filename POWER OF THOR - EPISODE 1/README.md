@@ -21,7 +21,7 @@ Thor évolue sur une carte de 40 cases de large et 18 cases de hauteur. Notez qu
 
 Chaque déplacement fait bouger Thor de 1 case dans la direction choisie.
 
-
+![Screenshot](./img/winLose.png)
 
 
 
