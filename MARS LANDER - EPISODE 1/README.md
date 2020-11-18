@@ -45,11 +45,14 @@ Le programme doit d'abord lire les données d'initialisation depuis l'entrée st
 
 ##  
 
+## Entrées d'initialisation
 
+Ligne 1 : le nombre surfaceN de points formant le sol de Mars.
+Les surfaceN lignes suivantes : un couple d'entiers landX landY donnant les coordonnées d’un point du sol. En reliant les points entre eux de manière séquentielle on obtient la surface de Mars formée de segments. Pour le premier point, landX = 0 et pour le dernier point, landX = 6999.
 
+## 
 
-
-
+### Entrées pour un tour de jeu
 
 
 
