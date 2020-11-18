@@ -23,13 +23,25 @@ Chaque déplacement fait bouger Thor de 1 case dans la direction choisie.
 
 ![Screenshot](./img/winLose.png)
 
+## Note
+
+N'oubliez pas d'exécuter les tests depuis la fenêtre "Jeu de tests".
+**Attention** : les tests fournis et les validateurs utilisés pour le calcul du score sont légèrement différents pour éviter les solutions codées en dur
+
+### Entrées de jeu
+
+Le programme doit d'abord lire les données d'initialisation depuis l'entrée standard, puis, dans une boucle infinie fournir sur la sortie standard les instructions de mouvement de Thor.
+
+##
+
+#### Entrées d'initialisation
 
 
-## Entrées de jeu
 
-Votre programme doit lire les données depuis l'entrée standard et écrire le résultat sur la sortie standard.
 
-#### Entrée
+
+
+
 
 Ligne 1 : Le nombre N de températures à analyser.
 
