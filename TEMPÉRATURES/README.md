@@ -12,7 +12,7 @@ Dans cet exercice, vous devez analyser un relevé de températures pour trouver 
 
 Votre programme doit lire les données depuis l'entrée standard et écrire le résultat sur la sortie standard.
 
-##### Entrée
+#### Entrée
 
 Ligne 1 : Le nombre N de températures à analyser.
 
