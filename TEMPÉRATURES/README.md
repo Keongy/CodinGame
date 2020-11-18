@@ -21,3 +21,7 @@ Ligne 2 : Une chaine de caractères contenant les N températures exprimées sou
 #### Sortie
 
 Affichez 0 (zéro) si aucune température n'est fournie. Sinon, affichez la température la plus proche de 0
+
+#### Contraintes
+
+0 ≤ N < 10000
