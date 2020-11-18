@@ -15,7 +15,7 @@ la variable initialTX : la position X initiale de Thor.
 la variable initialTY : la position Y initiale de Thor.
 À la fin du tour de jeu, vous devez afficher la direction que Thor doit prendre parmi :
 
-![Screenshot](/img/direction.png)
+![Screenshot](./img/direction.png)
 
 ## Entrées de jeu
 
