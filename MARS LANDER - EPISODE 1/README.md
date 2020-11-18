@@ -14,7 +14,7 @@ Sous forme de jeu, le simulateur place Mars Lander dans une zone du ciel de Mars
 
 **Toutes les secondes**, en fonction des paramètres d’entrée (position, vitesse, fuel, etc.), le programme doit fournir le nouvel angle de rotation souhaité ainsi que la nouvelle puissance des fusées de Mars Lander:
 
-![Screenshot](./img/controlePanel.png)
+![Screenshot](./img/controlPanel.png)
 
 Le jeu modélise **une chute libre** sans atmosphère. La gravité sur Mars est de 3,711 m/s². Pour une **puissance des fusées de X**, on génère une poussée équivalente à X m/s² et on consomme **X litres de fuel**. Il faut donc une poussée de 4 quasi verticale pour compenser la gravité de Mars.
 
@@ -43,7 +43,7 @@ Les validateurs sont différents des tests mais restent très similaires. **Un p
 
 Le programme doit d'abord lire les données d'initialisation depuis l'entrée standard, puis, dans une boucle infinie, lire depuis l'entrée standard les données relatives à Mars Lander et fournir sur la sortie standard les instructions de mouvement de Mars Lander.
 
-## .
+##  
 
 
 
