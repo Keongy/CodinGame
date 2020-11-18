@@ -39,13 +39,13 @@ Les validateurs sont différents des tests mais restent très similaires. **Un p
 
 
 
-## Entrées du jeu
+### Entrées du jeu
 
 Le programme doit d'abord lire les données d'initialisation depuis l'entrée standard, puis, dans une boucle infinie, lire depuis l'entrée standard les données relatives à Mars Lander et fournir sur la sortie standard les instructions de mouvement de Mars Lander.
 
 ##  
 
-## Entrées d'initialisation
+### Entrées d'initialisation
 
 Ligne 1 : le nombre surfaceN de points formant le sol de Mars.
 Les surfaceN lignes suivantes : un couple d'entiers landX landY donnant les coordonnées d’un point du sol. En reliant les points entre eux de manière séquentielle on obtient la surface de Mars formée de segments. Pour le premier point, landX = 0 et pour le dernier point, landX = 6999.
@@ -53,6 +53,46 @@ Les surfaceN lignes suivantes : un couple d'entiers landX landY donnant les coor
 ## 
 
 ### Entrées pour un tour de jeu
+
+Une ligne unique constituée de 7 entiers : X Y hSpeed vSpeed fuel rotate power
+* X,Y sont les coordonnées en mètres de la capsule.
+* hSpeed et vSpeed sont respectivement la vitesse horizontale et la vitesse verticale de Mars Lander (en m/s). Suivant le déplacement de Mars Lander, les vitesses peuvent être négatives.
+* fuel est la quantité de fuel restant en litre. Quand le fuel vient à manquer, la puissance des fusées tombe à zéro.
+rotate est l’angle de rotation de Mars Lander en degré.
+* power est la puissance des fusées de la capsule.
+
+
+## 
+
+### Sortie pour un tour de jeu
+
+Une ligne unique constituée de 2 entiers : rotate power
+* rotate est l’angle de rotation souhaité pour Mars Lander. à noter que la rotation effective d’un tour à l’autre est limitée à +/- 15° par rapport à l’angle du tour précedent.
+* power est la puissance des fusées. 0 = éteintes. 4 = puissance maximum. La puissance effective d'un tour à l'autre est limitée à +/- 1.
+
+## 
+
+## Contraintes
+
+2 ≤ surfaceN < 30
+0 ≤ X < 7000
+0 ≤ Y < 3000
+-500 < hSpeed, vSpeed < 500
+0 ≤ fuel ≤ 2000
+-90 ≤ rotate ≤ 90
+0 ≤ power ≤ 4
+Temps de réponse pour un tour ≤ 100ms
+
+
+
+
+
+
+
+
+
+
+
 
 
 
