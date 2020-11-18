@@ -3,7 +3,7 @@
 
 Dans les gares et aéroports on croise souvent ce type d'écran :
 
-![Screenshot](./img/rulesSimut.png)
+![Screenshot](./img/screenshot.png)
 
 Vous êtes-vous demandé comment il serait possible de simuler cet affichage dans un bon vieux terminal ? Nous oui : avec l'art ASCII !
 
