@@ -33,7 +33,6 @@ while (true) {
 
     console.log(0, speed);
 
-
-    // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
+    // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4)..
 
 }
